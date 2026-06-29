@@ -23,6 +23,12 @@ A 100% free, private, and local banking data processing application. This pipeli
 
 ---
 
+🖼️ Dashboard Preview & Interface
+Below is the execution layout of the web interface processing statements and parsing live transaction data completely offline:
+
+<img width="1710" height="1112" alt="Screenshot 2026-06-29 at 11 14 46 AM" src="https://github.com/user-attachments/assets/a303be6f-889f-4602-a1ca-1103d824c0e8" />
+<img width="1710" height="1112" alt="Screenshot 2026-06-29 at 11 16 26 AM" src="https://github.com/user-attachments/assets/013ada26-7bec-4d1a-a81e-8015a2de4bb9" />
+
 ## 🚀 Getting Started
 
 ### 1. Prerequisites
@@ -44,3 +50,4 @@ pip install streamlit pandas plotly ollama pydantic pdfplumber
 
 # Start the browser dashboard application
 streamlit run app.py
+
