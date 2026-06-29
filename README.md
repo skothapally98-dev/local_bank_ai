@@ -1,6 +1,6 @@
 # 🏦 Local AI Banking Data Pipeline & Analytics Engine
 
-A 100% free, private, and local enterprise-grade banking data processing application. This pipeline extracts unstructured transaction data from bank statement PDFs, enforces strict validation schemas using Pydantic, executes risk underwriting analysis using a local Large Language Model, and visualizes the results on an interactive web dashboard.
+A 100% free, private, and local banking data processing application. This pipeline extracts unstructured transaction data from bank statement PDFs, enforces strict validation schemas using Pydantic, executes risk underwriting analysis using a local Large Language Model, and visualizes the results on an interactive web dashboard.
 
 ---
 
@@ -32,8 +32,9 @@ Pull the required model in your terminal:
 ```bash
 ollama pull llama3.1
 
-2. Set Up the Environment & Run
+### 2. Set Up the Environment & Run**
 Clone the repository, initialize your environment, and boot up the dashboard server:
+
 # Setup virtual environment
 python3 -m venv venv
 source venv/bin/activate
@@ -43,9 +44,3 @@ pip install streamlit pandas plotly ollama pydantic pdfplumber
 
 # Start the browser dashboard application
 streamlit run app.py
-
-<img width="1710" height="1112" alt="Screenshot 2026-06-29 at 11 16 26 AM" src="https://github.com/user-attachments/assets/e862e1ab-fa6a-428e-bd27-047ff7805885" />
-
-<img width="1710" height="1112" alt="Screenshot 2026-06-29 at 11 14 46 AM" src="https://github.com/user-attachments/assets/3cc1e607-ea11-4cc1-a44f-3ea1df21c8d9" />
-
-
